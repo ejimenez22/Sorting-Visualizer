@@ -1,10 +1,16 @@
 .array-container {
-    position: absolute;
-    left: 200px;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+
 }
 
 .array-bar {
     width: 2px;
     display: inline-block;
     margin: 0 1px;
+}
+
+.arrayBtns { 
+    justify-content: space-between;
 }
