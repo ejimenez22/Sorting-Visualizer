@@ -1,5 +1,5 @@
 import React from 'react';
-import {getMergeSortAnimations} from '../sortingAlgorithms/sortingAlgorithms.js';
+import {getMergeSortAnimations} from '../SortingAlgos/sortingAlgorithms.js'
 import './SortingVisualizer.css';
 
 const ANIMATION_SPEED_MS = 1;
@@ -56,20 +56,18 @@ export default class SortingVisualizer extends React.Component {
   }
 
   quickSort() {
-    // We leave it as an exercise to the viewer of this code to implement this method.
+    
   }
 
   heapSort() {
-    // We leave it as an exercise to the viewer of this code to implement this method.
+    
   }
 
   bubbleSort() {
-    // We leave it as an exercise to the viewer of this code to implement this method.
+    
   }
 
-  // NOTE: This method will only work if your sorting algorithms actually return
-  // the sorted arrays; if they return the animations (as they currently do), then
-  // this method will be broken.
+
   testSortingAlgorithms() {
     for (let i = 0; i < 100; i++) {
       const array = [];
